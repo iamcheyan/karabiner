@@ -19,7 +19,7 @@
                         ]
                     },
                     {
-                        "description": "使用かな切换中文和日文",
+                        "description": "使用かな切换mac控制台",
                         "manipulators": [
                             {
                                 "from": { "key_code": "japanese_kana" },
