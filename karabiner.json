@@ -25,7 +25,7 @@
                                 "from": { "key_code": "japanese_kana" },
                                 "to": [
                                     {
-                                        "key_code": "period",
+                                        "key_code": "f14",
                                         "modifiers": ["left_control"]
                                     }
                                 ],
