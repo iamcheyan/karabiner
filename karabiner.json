@@ -34,14 +34,19 @@
                         ]
                     },
                     {
-                        "description": "使用かな切换mac控制台",
+                        "description": "JIS: 单独按下け键映射为冒号 (colon)",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "type": "keyboard_type_if",
+                                        "keyboard_types": ["jis"]
+                                    }
+                                ],
                                 "from": { "key_code": "japanese_kana" },
                                 "to": [
                                     {
-                                        "key_code": "f14",
-                                        "modifiers": ["left_control"]
+                                        "key_code": "quote"
                                     }
                                 ],
                                 "type": "basic"
